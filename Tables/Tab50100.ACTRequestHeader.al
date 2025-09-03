@@ -31,11 +31,9 @@ table 50110 "ACT Request Header"
             OptionCaption = 'Purchase,Transfer';
             DataClassification = CustomerContent;
         }
-        field(4; Status; Option)
+        field(4; Status; Enum "approval enum")
         {
             Caption = 'Status';
-            OptionMembers = Open,Pending,Approved;
-            OptionCaption = 'Open,Pending,Approved';
             DataClassification = CustomerContent;
             Editable = false;
         }
