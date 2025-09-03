@@ -141,7 +141,7 @@ page 50100 "ACT Request Document"
                 {
                     ApplicationArea = All;
                     Caption = 'Send Approval Request';
-                    Enabled = not OpenApprovalEntriesExist and IsEditable;
+                    // Enabled = not OpenApprovalEntriesExist and IsEditable;
                     Image = SendApprovalRequest;
                     ToolTip = 'Request approval of the document.';
                     Promoted = true;
