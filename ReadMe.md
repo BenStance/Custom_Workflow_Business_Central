@@ -32,6 +32,7 @@ This solution extends Microsoft Dynamics 365 Business Central with a complete Ma
 - **50100 Custom Workflow Mgmt.**: Custom workflow event handling
 
 ###   Approval Enum
+- **50100 ApprovalEnum**: Handle Document status
 
 ##  Installation
 
